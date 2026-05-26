@@ -338,10 +338,10 @@ SMOverviewMap = (function() {
         try {
             var hash = new L.Hash(map);
             if(window.location.hash == null || window.location.hash == "") {
-                map.setView([350,450],1);
+                map.setView([300,450],1);
             }
         } catch (error) {
-            map.setView([350,450],1);
+            map.setView([300,450],1);
         }
 
         if(inputjson) {
