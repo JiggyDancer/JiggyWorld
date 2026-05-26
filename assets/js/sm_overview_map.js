@@ -12,7 +12,7 @@ SMOverviewMap = (function() {
 
     var minZoom = 0
     var maxZoom = 5
-    var gridSize = 64
+    var gridSize = 32
 
     // A quick extension to allow image layer rotation.
     L.RotateImageLayer = L.ImageOverlay.extend({
